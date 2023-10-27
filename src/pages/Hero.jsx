@@ -27,7 +27,10 @@ export const Hero = () => {
     </div>
     <div className="left-[709px] top-[37px] absolute text-white text-[28px] font-bold font-['Ubuntu'] capitalize">Smart Academy</div>
     <div className="w-[206px] h-[55px] px-8 py-4 left-[1164px] top-[26px] absolute bg-pink-500 rounded-[100px] justify-center items-center inline-flex">
-        <div className="text-center text-white text-xl font-medium font-['Ubuntu'] capitalize">Explore Course</div>
+    <div className="text-center text-white text-xl font-medium font-['Ubuntu'] capitalize"><NavLink to="/courses"   
+                           > 
+                           Explore Courses 
+                        </NavLink> </div>
     </div>
     <div className="w-[990px] h-[415px] left-[70px] top-[281px] absolute flex-col justify-start items-start gap-16 inline-flex">
         <div className="flex-col justify-center items-start gap-6 flex">
@@ -35,7 +38,10 @@ export const Hero = () => {
             <div className="w-[770px] text-white text-xl font-normal font-['Mulish']">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique sem ut lacinia pellentesque. Donec in nulla faucibus, tincidunt velit vel, ultricies dolor.</div>
         </div>
         <div className="px-8 py-4 bg-pink-500 rounded-[100px] justify-center items-center inline-flex">
-            <div className="text-center text-white text-xl font-normal font-['Mulish']">Explore Course</div>
+            <div className="text-center text-white text-xl font-normal font-['Mulish']"><NavLink to="/courses"   
+                           > 
+                            Explore Courses 
+                        </NavLink> </div>
         </div>
     </div>
 </div>
