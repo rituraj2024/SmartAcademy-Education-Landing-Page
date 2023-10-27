@@ -1,0 +1,16 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
+    overflow-x: hidden;
+    //overflow-y: hidden;
+}
+
+
+@media (max-width: 400px) {
+    .articlemedia {
+        flex: 0 0 calc(100% - 20px); /* 100% width for each card, no float */
+    }
+}
+
